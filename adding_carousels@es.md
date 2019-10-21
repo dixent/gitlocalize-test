@@ -28,7 +28,7 @@ Berikutnya, mari sematkan carousel gambar yang sederhana dengan tata letak respo
 
 Komponen [`amp-carousel`](../../../../documentation/components/reference/amp-carousel.md) dapat dikonfigurasikan dalam berbagai cara.  Mari kita ubah UI agar hanya menampilkan gambar satu per satu dan membuat tata letak carousel menjadi responsif.
 
-Untuk melakukannya, pertama-tama, **ubah** `type` [`amp-carousel`](../../../../documentation/components/reference/amp-carousel.md) dari `carousel` menjadi `slides`, **ubah** `layout` menjadi `responsive` dan **tetapkan** `width` ke 300 (pastikan `height` dan `width` sudah ditentukan).  **Tambahkan ** atribut `"layout=responsive"` ke [`amp-img`](../../../../documentation/components/reference/amp-img.md) turunan [`amp-carousel`](../../../../documentation/components/reference/amp-carousel.md).
+Untuk melakukannya, pertama-tama, **ubah** `type` [`amp-carousel`](../../../../documentation/components/reference/amp-carousel.md) dari `carousel` menjadi `slides`, **ubah** `layout` menjadi `responsive` dan **tetapkan** `width` ke 300 (pastikan `height` dan `width` sudah ditentukan).  **Tambahkan** atribut `"layout=responsive"` ke [`amp-img`](../../../../documentation/components/reference/amp-img.md) turunan [`amp-carousel`](../../../../documentation/components/reference/amp-carousel.md).
 
 **Muat ulang** halaman. Kini, Anda akan melihat elemen satu per satu, bukannya daftar elemen yang dapat di-scroll secara berulang. Coba **geser** secara horizontal untuk berpindah antar-elemen. Jika Anda menggeser elemen ketiga, Anda tidak akan dapat menggeser lebih jauh lagi.
 
