@@ -1,4 +1,5 @@
-``
+`var all = [];`
+
 <table class="noborder">
 <thead>
   <tr>
@@ -13,7 +14,7 @@
  </tr>
 </tbody>
 </table>
-``
+
 
 <table class="noborder">
 <tr>
