@@ -1,19 +1,19 @@
-
-`<table class="noborder">`
-`<thead>`
-  `<tr>`
+``
+<table class="noborder">
+<thead>
+  <tr>
   
-`   <th><h5 id="fill">Template: Fill</h5></td>`
-  `</tr>`
-`</thead>`
-`<tbody>`
+  <th><h5 id="fill">Template: Fill</h5></td>
+  </tr>
+</thead>
+<tbody>
 
-  `<tr>`
-   `<td>Content</td>`
-  `</tr>`
-`</tbody>`
-`</table>`
-
+  <tr>
+   <td>Content</td>
+ </tr>
+</tbody>
+</table>
+``
 
 <table class="noborder">
 <tr>
