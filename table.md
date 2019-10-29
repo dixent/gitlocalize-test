@@ -1,20 +1,17 @@
 <table class="noborder">
 <tr>
-    <td colspan="2"><h5 id="fill">Template: Fill</h5></td>
-</tr>
-<tr>
-    <td width="65%">The <strong>fill</strong> template fills the screen with the first child element in the layer. Any other children in this layer aren't shown.
+    <td width="65%">La plantilla <strong>horizontal</strong> organiza los elementos secundarios a lo largo del eje "x".  Los elementos se alinean con respecto al inicio de la pantalla y se distribuyen por todo el espacio a lo largo del eje "x".
 
-    The fill template works well for backgrounds, including images and videos.
-   <code class="nopad"><pre>&lt;amp-story-grid-layer template="fill">
-  &lt;amp-img src="dog.png"
-      width="720" height="1280"
-      layout="responsive">
-  &lt;/amp-img>
+    <p>Utiliza la plantilla "horizontal" cuando quieras apilar elementos horizontalmente uno después del otro.</p>
+
+    <code class="nopad"><pre>&lt;amp-story-grid-layer template="horizontal">
+  &lt;p>element 1&lt;/p>
+  &lt;p>element 2&lt;/p>
+  &lt;p>element 3&lt;/p>
 &lt;/amp-story-grid-layer></pre></code>
     </td>
     <td>
-    {{ image('/static/img/docs/tutorials/amp_story/layer-fill.png', 216, 341) }}
+    {{ image('/static/img/docs/tutorials/amp_story/layer-horizontal.png', 216, 341) }}
     </td>
 </tr>
 </table>
