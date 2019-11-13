@@ -1,8 +1,8 @@
 ---
 $title: Menambahkan carousel
 $order: '3'
-description: Another common feature in mobile pages is a carousel. You can easily
-  add carousels to AMP pages by using the amp-carousel component.
+description: Fitur umum lainnya di laman seluler adalah korsel. Anda dapat dengan
+  mudah menambahkan komidi putar ke halaman AMP dengan menggunakan komponen amp-carousel.
 ---
 
 Fitur umum lainnya di halaman seluler adalah carousel.  Anda dapat dengan mudah menambahkan carousel ke halaman AMP dengan menggunakan komponen [`amp-carousel`](../../../../documentation/components/reference/amp-carousel.md). Mari kita mulai dengan contoh sederhana, misalnya carousel gambar.
