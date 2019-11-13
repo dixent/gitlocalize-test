@@ -1,5 +1,8 @@
 ---
 $title: Agregar carruseles
+$order: '3'
+description: Otra característica común en las páginas móviles es un carrusel. Puede
+  agregar carruseles fácilmente a las páginas AMP utilizando el componente amp-carrusel.
 ---
 
 Otra característica común en las páginas móviles es un carrusel. Puede agregar fácilmente carruseles a las páginas de AMP utilizando el componente de [`amp-carousel`](../../../../documentation/components/reference/amp-carousel.md). Comencemos con un ejemplo simple, como un carrusel de imágenes.
@@ -25,6 +28,8 @@ A continuación, insertemos un simple carrusel de imágenes con un diseño de re
 **Actualiza** tu página y deberías ver un carrusel en tu página:
 
 {{ image('/static/img/docs/tutorials/tut-advanced-carousel-simple.png', 412, 403, align='center half', caption='Carrusel de imágenes simples') }}
+
+El componente [`amp-carousel`](../../../../documentation/components/reference/amp-carousel.md) se puede configurar de varias maneras. Cambiemos la interfaz de usuario para mostrar solo una imagen a la vez y hacer que el diseño del carrusel responda.
 
 El componente [`amp-carousel`](../../../../documentation/components/reference/amp-carousel.md) se puede configurar de varias maneras. Intente **cambiar** el `type` de `carousel` a `slides`, y mire el resultado. Para asegurarse de que su contenido varíe y responda al tamaño de la pantalla, en el componente [`amp-carousel`](../../../../documentation/components/reference/amp-carousel.md), **cambie** el `layout` a `responsive`. Asegúrese de que su carrusel tiene valores de `width` y `height` definidos. Además, **agregue** el atributo `"layout=responsive"` a los elementos [`amp-img`](../../../../documentation/components/reference/amp-img.md).
 
